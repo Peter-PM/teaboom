@@ -324,11 +324,6 @@ legend {
     gap: 12px;
 }
 
-@media (min-width: 768px) {
-    .product__actions {
-        flex-wrap: wrap;
-    }
-}
 
 .product__add-to-cart {
     min-width: 170px;
@@ -337,6 +332,19 @@ legend {
 .product__cart-status {
     font-size: 14px;
     line-height: 18px;
+}
+
+@media (min-width: 768px) {
+    .product__actions {
+        flex-wrap: wrap;
+    }
+
+    .product__cart-status {
+        margin: 0;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
 }
 
 .button {
