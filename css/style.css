@@ -334,10 +334,7 @@ legend {
     line-height: 18px;
 }
 
-@media (min-width: 768px) {
-    .product__actions {
-        flex-wrap: wrap;
-    }
+@media (max-width: 768px) {
 
     .product__cart-status {
         margin: 0;
